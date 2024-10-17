@@ -1,0 +1,12 @@
+server:
+  port: 20093
+
+spring:
+  webflux:
+    base-path: /kpl
+  application:
+    name: transaction-service
+#  data:
+#    mongodb:
+#      name: ${KPL_USER_DB_NAME:kpl-users}
+#      uri: ${SPRING_DATA_MONGO_URI:mongodb+srv://abcuser:91STASeuUL24X3Up@abc-dev-saas.fdsql.mongodb.net/${spring.data.mongodb.name}?retryWrites=true&w=majority}
